@@ -1,0 +1,276 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-nav a{
+  color: black;
+  font-weight: 500;
+}
+.nav-link.clicked{
+  color: #f16821;
+}
+
+.navbar-nav a:hover{
+  color: #f16821;
+}
+.navbar-brand h1{
+  font-weight: 900;
+}
+.navbar-brand h1 span{
+  color: #f16821;
+}
+.hero{
+  width: 100%;
+  height: 89%;
+  background-image: url(image/hero_2.jpg.webp);
+  background-size: cover;
+  opacity: 0.8;
+  z-index: -99;
+}
+
+.hero .h1{
+  font-size: 60px;
+  font-weight: 900;
+}
+.hero .p{
+  font-size: 20px;
+}
+
+#product{
+  padding: 80px 120px;
+}
+.product-text h6{
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.product-text h5{
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+.product-text p{
+  color: gray;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.product-item p{
+  line-height: 1.4;
+  font-size: 13px;
+  color: #a2a6aa;
+}
+.product-item h3:hover{
+  color: #f16821;
+}
+/* .product-item figure:before{
+  z-index: 2;
+  transition: all .4s ease;
+  transform: scale(1.05);
+    position: absolute;
+    content: "";
+    border: 4px solid #f16821;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+.product-item figure{
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+} */
+
+.product-item {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.product-item::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  bottom: 20px;
+  border: 4px solid #f16821;
+  opacity: 0;
+  transition: all 0.4s ease;
+  transform: scale(1);
+}
+
+.product-item:hover::before {
+  opacity: 1;
+  transform: scale(0.8);
+}
+
+#about{
+  padding: 80px 120px;
+  position: relative;
+}
+.experiance{
+  position: absolute;
+  bottom: 3rem;
+  right: 32rem;
+  background: #46ddb0;
+  padding: 20px;
+}
+.experiance .year{
+  font-weight: 900;
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: normal;
+  line-height: 1.2;
+}
+.experiance .caption{
+  color: #fff;
+  text-transform: uppercase;
+}
+.experiance span{
+  display: block;
+}
+.about-sub{
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.about-title{
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+.ms-auto p{
+  color: #a2a6aa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
