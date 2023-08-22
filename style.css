@@ -157,8 +157,38 @@ html,body{
 .ms-auto p{
   color: #a2a6aa;
 }
+#team{
+  padding: 80px 120px;
+}
 
-
+.social i {
+  font-size: 18px;
+  color: #333; 
+  transition: all 0.3s ease; 
+}
+.social i:hover {
+  color: #f16821;
+  transform: translateY(-6px); 
+}
+.team-title{
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.team-sub{
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+.person h3{
+  font-size: 18px;
+  color: #333;
+}
+.person p{
+  color: #a2a6aa;
+}
 
 
 
