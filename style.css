@@ -45,7 +45,7 @@ html,body{
 }
 
 #product{
-  padding: 80px 120px;
+  padding: 40px 120px;
 }
 .product-text h6{
   font-size: 13px;
@@ -72,25 +72,6 @@ html,body{
 .product-item h3:hover{
   color: #f16821;
 }
-/* .product-item figure:before{
-  z-index: 2;
-  transition: all .4s ease;
-  transform: scale(1.05);
-    position: absolute;
-    content: "";
-    border: 4px solid #f16821;
-    left: 20px;
-    right: 20px;
-    top: 20px;
-    bottom: 20px;
-    opacity: 0;
-    visibility: hidden;
-}
-.product-item figure{
-  overflow: hidden;
-  position: relative;
-  margin-bottom: 30px;
-} */
 
 .product-item {
   position: relative;
@@ -118,7 +99,7 @@ html,body{
 }
 
 #about{
-  padding: 80px 120px;
+  padding: 40px 120px;
   position: relative;
 }
 .experiance{
@@ -210,27 +191,85 @@ html,body{
 .lead{
   font-size: 20px;
 }
-#date-count .count-block{
-  background: #fff;
-  padding: 10px 20px;
-  margin: 10px;
-  display: inline-block;
-  border-radius: 7px;
-}
-#date-count .label{
-  font-size: 40px;
-  color: #46ddb0;
-  display: block;
-}
-#date-count span{
-  color: #000;
-}
 #blog{
   padding: 80px 120px;
 }
+.blog-title{
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.blog-sub{
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+.h-entry h2{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.h-entry .meta{
+  color: #b3b3b3;
+  font-size: 14px;
+}
+.h-entry p{
+  line-height: 1.7;
+  color: gray;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.h-entry img{
+  transition: transform .3s all ease; /* Animation */
+}
+.h-entry img:hover{
+  transform: translateX(-16px) scale(1.1); 
+}
+#contact{
+  padding: 10px 120px;
+}
+.contact-title{
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.contact-sub{
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+footer{
+  padding: 40px 120px;
+}
+.footer-heding{
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+footer p{
+  color: #737373;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 1rem;
+}
 
 
 
+
+@media screen and (max-width:576px) {
+  .experiance{
+    bottom: 33rem;
+    right: 8rem;
+    padding: 12px;
+  }
+  .experiance .year{
+    font-size: 2rem;
+  }
+}
 
 
 

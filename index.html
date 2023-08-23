@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
   <!-- css style link -->
   <link rel="stylesheet" href="style.css">
+  <!-- aos css link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Selling</title>
 </head>
 <body>
@@ -31,7 +33,7 @@
               <a class="nav-link ps-3" href="#product">Products</a>
               <a class="nav-link ps-3" href="#about">About Us</a>
               <a class="nav-link ps-3" href="#special">Special</a>
-              <a class="nav-link ps-3" href="#testimonials">Testimonials</a>
+              <!-- <a class="nav-link ps-3" href="#testimonials">Testimonials</a> -->
               <a class="nav-link ps-3" href="#blog">Blog</a>
               <a class="nav-link ps-3" href="#contact">Contact</a>
             </div>
@@ -52,14 +54,16 @@
   <div class="hero ">
     <div class="container d-flex pt-5 ">
       <div class="row align-items-center justify-content-center ">
-        <div class="col-md-12 pt-4 ps-5">
+        <div class="col-md-12 pt-4 ps-5" >
         <div class="col-md-7 pt-4 ps-4">
-          <h1 class="text-white h1">Shop With Us</h1>
-          <p class="text-white mb-4 p">Amidst the vibrant cityscape, where the towering skyscrapers touch the heavens and the bustling streets echo with life, there exists a hidden oasis of tranquility.</p>
+          <h1 class="text-white h1" data-aos="fade-up">Shop With Us</h1>
+          <p class="text-white mb-4 p" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">Amidst the vibrant cityscape, where the towering skyscrapers touch the heavens and the bustling streets echo with life, there exists a hidden oasis of tranquility.</p>
           <div>
+            <div data-aos="fade-up" data-aos-duration="1200" data-aos-easing="linear">
 
-            <button class="btn btn-white btn-outline-light py-3 px-5 rounded-0 mb-4">Shop now</button>
-            <button class="btn btn-light py-3 px-5 rounded-0 mb-4">Club Membership</button>
+              <button class="btn btn-white btn-outline-light py-3 px-5 rounded-0 mb-4">Shop now</button>
+              <button class="btn btn-light py-3 px-5 rounded-0 mb-4">Club Membership</button>
+            </div>
           </div>
         </div>
       </div>
@@ -83,9 +87,10 @@
     <p>Inclusive design, empowering all. Uniting style and function for men and <br> women, breaking boundaries effortlessly.</p>
   </div>
 
-  <div class="row pt-4">
+  <div class="row pt-4" >
     <div class="col-lg-4 col-md-6 mb-5">
-      <div class="product-item">
+      <div class="product-item" data-aos="fade-up"
+      data-aos-anchor-placement="top-center">
         <figure>
           <img src="image/model_1_bg.jpg.webp" alt="img" class="img-fluid">
         </figure>
@@ -108,7 +113,8 @@
       </div>
     </div>
     <div class="col-lg-4 col-md-6 mb-5">
-      <div class="product-item">
+      <div class="product-item" data-aos="fade-up"
+      data-aos-anchor-placement="top-center">
         <figure>
           <img src="image/model_2_bg.jpg.webp" alt="img" class="img-fluid">
         </figure>
@@ -131,7 +137,8 @@
       </div>
     </div>
     <div class="col-lg-4 col-md-6 mb-5">
-      <div class="product-item">
+      <div class="product-item" data-aos="fade-up"
+      data-aos-anchor-placement="top-center">
         <figure>
           <img src="image/model_3_bg.jpg.webp" alt="img" class="img-fluid">
         </figure>
@@ -154,7 +161,8 @@
       </div>
     </div>
     <div class="col-lg-4 col-md-6 mb-5">
-      <div class="product-item">
+      <div class="product-item" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
         <figure>
           <img src="image/model_4_bg.jpg.webp" alt="img" class="img-fluid">
         </figure>
@@ -177,7 +185,8 @@
       </div>
     </div>
     <div class="col-lg-4 col-md-6 mb-5">
-      <div class="product-item">
+      <div class="product-item" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
         <figure>
           <img src="image/model_5_bg.jpg.webp" alt="img" class="img-fluid">
         </figure>
@@ -200,7 +209,8 @@
       </div>
     </div>
     <div class="col-lg-4 col-md-6 mb-5">
-      <div class="product-item">
+      <div class="product-item" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
         <figure>
           <img src="image/product_1_bg.jpg.webp" alt="img" class="img-fluid">
         </figure>
@@ -240,14 +250,14 @@
 
   <div class="container">
     <div class="row align-items-lg-center">
-      <div class="col-md-8 mb-lg-0 mb-5">
+      <div class="col-md-8 mb-lg-0 mb-5" >
         <img src="image/about_1.jpg.webp" alt="image" class="img-fluid">
         <div class="experiance">
           <span class="year">Trusted Merchant</span>
           <span class="caption">for 50 years</span>
         </div>
       </div>
-      <div class="col-md-3 ms-auto">
+      <div class="col-md-3 ms-auto" data-aos="zoom-out-left">
         <h3 class="about-sub">Merchant Company</h3>
         <h2 class="about-title">About Us</h2>
         <p class="mb-4">Experience seamless style and utility with our product, designed for both men and women. From its sleek design to rugged durability, it meets the demands of diverse lifestyles. Celebrate unity in diversity as it embodies modern femininity and masculine practicality. Embrace a product that transcends gender barriers and empowers all. Elevate your lifestyle with this inclusive and versatile addition to your daily routine.</p>
@@ -278,7 +288,9 @@
     </div>
     <div class="row">
       <div class="col-md-6 col-lg-4 mb-lg-0 mb-4">
-        <div class="person text-center">
+        <div class="person text-center" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
           <img src="image/person_2.jpg.webp" alt="image" class="img-fluid rounded w-75 mb-3">
           <h3>John Rooster</h3>
           <p class="text-muted">Co-Founder, President</p>
@@ -292,7 +304,9 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-4 mb-lg-0 mb-4">
-        <div class="person text-center">
+        <div class="person text-center" data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
           <img src="image/person_3.jpg.webp" alt="image" class="img-fluid rounded w-75 mb-3">
           <h3>Tom Sharp</h3>
           <p class="text-muted">Co-Founder, COO</p>
@@ -306,7 +320,9 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-4 mb-lg-0">
-        <div class="person text-center">
+        <div class="person text-center" data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-easing="ease-in-sine">
           <img src="image/person_4.jpg.webp" alt="image" class="img-fluid rounded w-75 mb-3">
           <h3>Winston Hodson</h3>
           <p class="text-muted">Marketing</p>
@@ -339,27 +355,11 @@
 <section id="special">
   <div class="container text-center text-white ">
     <div class="row align-items-center justify-content-center">
-      <div class="col-md-7 col-12 text-center">
+      <div class="col-md-7 col-12 text-center" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
         <h3 class="special-title mt-4">Special Promo</h3>
         <h3 class="special-sub">Summer Sale</h3>
         <p class="mb-5 lead">Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
-        <div id="date-count" class="mb-5">
-          <span class="count-block">
-            <span class="label">00</span>week
-          </span>
-          <span class="count-block">
-            <span class="label">00</span>days
-          </span>
-          <span class="count-block">
-            <span class="label">00</span>Hour
-          </span>
-          <span class="count-block">
-            <span class="label">00</span>Minute
-          </span>
-          <span class="count-block">
-            <span class="label">00</span>Second
-          </span>
-        </div>
         <button class="btn btn-outline-light rounded-0">Shop Now</button>
       </div>
     </div>
@@ -385,8 +385,51 @@
     </div>
     <div class="row">
       <div class="col-md-6 col-lg-4 mb-lg-4">
-        <div class="h-entry">
+        <div class="h-entry" data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-easing="ease-in-sine">
           <img src="image/model_1_bg.jpg.webp" alt="images" class="img-fluid">
+          <h2 class="font-size">
+            <a href="" class="text-dark text-decoration-none">Elevate your lifestyle with this inclusive and versatile addition to your daily routine.</a>
+          </h2>
+          <div class="meta mb-4">
+            Ham Brock <span class="mx-2">.</span>Jan 18, 2023 <span>.</span>
+            <a href="" class="text-decoration-none text-danger ">News</a>
+          </div>
+          <p>Boundary-breaking design: where style and function unite, empowering men and women alike with inclusive versatility.</p>
+          <p><a href="" class="text-decoration-none text-danger ">Continue Reading...</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-lg-4">
+        <div class="h-entry" data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
+          <img src="image/model_3_bg.jpg.webp" alt="images" class="img-fluid">
+          <h2 class="font-size">
+            <a href="" class="text-dark text-decoration-none">Elevate your lifestyle with this inclusive and versatile addition to your daily routine.</a>
+          </h2>
+          <div class="meta mb-4">
+            James Phelps <span class="mx-2">.</span>Jan 18, 2023 <span>.</span>
+            <a href="" class="text-decoration-none text-danger ">News</a>
+          </div>
+          <p>Boundary-breaking design: where style and function unite, empowering men and women alike with inclusive versatility.</p>
+          <p><a href="" class="text-decoration-none text-danger ">Continue Reading...</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-lg-4">
+        <div class="h-entry" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <img src="image/model_5_bg.jpg.webp" alt="images" class="img-fluid">
+          <h2 class="font-size">
+            <a href="" class="text-dark text-decoration-none">Elevate your lifestyle with this inclusive and versatile addition to your daily routine.</a>
+          </h2>
+          <div class="meta mb-4">
+            James Phelps <span class="mx-2">.</span>Jan 18, 2023 <span>.</span>
+            <a href="" class="text-decoration-none text-danger ">News</a>
+          </div>
+          <p>Boundary-breaking design: where style and function unite, empowering men and women alike with inclusive versatility.</p>
+          <p><a href="" class="text-decoration-none text-danger ">Continue Reading...</a></p>
         </div>
       </div>
     </div>
@@ -400,6 +443,128 @@
 
 
 
+<!-- contact section start -->
+
+
+
+<section id="contact" class="bg-light">
+  <div class="container mt-5">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h3 class="contact-title">Contact Form</h3>
+        <h2 class="contact-sub">Get In Touch</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-7 mb-5">
+        <form action="#" class="p-5 bg-white">
+          <h2 class="h4 text-dark mb-5">Contact Form</h2>
+          <div class="row form-group">
+            <div class="col-md-6 mb-3 mb-md-0">
+              <label for="fname" class="text-dark">First Name</label>
+              <input type="text" id="fname" class="form-control rounded-1">
+            </div>
+            <div class="col-md-6 ">
+              <label for="fname" class="text-dark mb-1">Last Name</label>
+              <input type="text" id="lname" class="form-control rounded-1">
+            </div>
+          </div>
+          <div class="row form-group mt-3">
+            <div class="col-md-12">
+              <label for="email" class="text-dark mb-1">Email</label>
+              <input type="text" id="email" class="form-control rounded-1">
+            </div>
+          </div>
+          <div class="row form-group mt-3">
+            <div class="col-md-12">
+              <label for="message" class="text-dark mb-1"> Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" class="form-control rounded-1" placeholder="Write your special message..."></textarea>
+            </div>
+          </div>
+          <div class="row form-group mt-3">
+            <div class="col-md-12">
+              <input type="submit" value="Send Message" class="btn btn-dark rounded-0 py-3 px-4">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- contact section end -->
+
+
+
+
+
+<!-- footer start -->
+
+
+<footer class="bg-light">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="footer-heding mb-4">
+            About Us
+          </h2>
+          <p>"We're dedicated to innovation, fostering growth, and delivering excellence through collaboration, pushing boundaries in every endeavor we pursue."</p>
+        </div>
+        <div class="col-md-4 pb-3">
+          <h2 class="footer-heding mb-4">QUICK LINKS
+          </h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none text-secondary">About Us</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Services</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Blog</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2 class="footer-heding mb-4">
+            Follow Us
+          </h2>
+          <div class="social justify-content-center align-items-center">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter ms-2"></i>
+            <i class="fa-brands fa-linkedin-in ms-2"></i>
+            <i class="fa-brands fa-instagram ms-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -407,6 +572,9 @@
   <!-- fontawesome  -->
   <script src="https://kit.fontawesome.com/bee4f2375d.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <!-- AOS animation link -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- js link -->
   <script src="/index.js"></script>
 </body>
 </html>

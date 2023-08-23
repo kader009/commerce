@@ -10,3 +10,9 @@ navLinks.forEach(link => {
         this.classList.add('clicked');
     });
 });
+
+
+
+
+// AOS anition
+AOS.init();
