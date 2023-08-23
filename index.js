@@ -1,3 +1,8 @@
+
+
+// add click listner
+
+
 const navLinks = document.querySelectorAll('.nav-link');
 
 // Loop through each link and add a click event listener
@@ -14,5 +19,3 @@ navLinks.forEach(link => {
 
 
 
-// AOS anition
-AOS.init();
