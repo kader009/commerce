@@ -221,7 +221,7 @@ html,body{
   font-size: 1rem;
 }
 .h-entry img{
-  transition: transform .3s all ease; /* Animation */
+  transition: transform .3s all ease; 
 }
 .h-entry img:hover{
   transform: translateX(-16px) scale(1.1); 
@@ -256,7 +256,7 @@ footer p{
   font-weight: 400;
   font-size: 1rem;
 }
-
+  
 
 
 
@@ -278,7 +278,52 @@ footer p{
 
 
 
+@media screen and (max-width: 480px) and (min-width: 360px) {
+#product {
+    padding: 36px 40px;
+}
+#about {
+    padding: 36px 40px;
+}
+#team {
+    padding: 36px 3px;
+}
+#blog {
+    padding: 36px 40px;
+}
+#contact {
+    padding: 30px 0px;
+}
+footer {
+    padding: 36px 40px;
+}
+.experiance{
+  bottom: 34rem;
+  right: 4.5rem;
+  padding: 12px;
+}
+.experiance .year{
+  font-size: 1.3rem;
+}
+.hero .h1{
+  font-size: 26px;
+  font-weight: 700;
+}
+.hero{
+  height: 70vh;
+  background-position: center;
+}
+.hero .p{
+  font-size: 18px;
+}
+#special{
+  height: 48%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
 
+  }
 
 
 
