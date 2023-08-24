@@ -267,12 +267,15 @@ footer p{
 
 @media screen and (max-width:576px) {
   .experiance{
-    bottom: 33rem;
+    bottom: 32rem;
     right: 8rem;
     padding: 12px;
   }
   .experiance .year{
     font-size: 2rem;
+  }
+  #contact{
+    padding: 10px 50px;
   }
 }
 
